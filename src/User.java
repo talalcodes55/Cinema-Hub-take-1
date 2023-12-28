@@ -8,7 +8,6 @@ public class User implements Serializable {
         private String bankAccId;
         private int balance;
         private ArrayList<Ticket> tickets;
-        // Other user attributes and methods
         
         public User(String username, String password,String bankAccId,int balance) {
             this.username = username;
