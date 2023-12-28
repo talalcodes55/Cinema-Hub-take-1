@@ -81,12 +81,11 @@ public class Ticketing {
             while ((line = br.readLine()) != null) {
                 
                 if (line.equals(takenID)) {
-                    bw.write(line.replaceAll(line, ID));
                 }
             }
             user.deleteTickets(ID);
             user.setTickets(user.getTickets());
-            
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         } catch (IOException e){
