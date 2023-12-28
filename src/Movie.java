@@ -8,10 +8,6 @@ public class Movie implements Serializable {
         private String genre;       
         private String thumbnail;
 
-        
-        // Other movie attributes and methods
-        
-
     public Movie(String title, String rating, String genre, String thumbnail) {
         this.title = title;
         this.rating = rating;
